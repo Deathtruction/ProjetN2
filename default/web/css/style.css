@@ -9,12 +9,12 @@ url: www.2code.info
 */
 /* Css */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-@import url("../../../web/css/base.css");
-@import url("../../../web/css/lists.css");
-@import url("../../../web/css/bootstrap.min.css");
-@import url("../../../web/css/prettyPhoto.css");
-@import url("../../../web/css/font-awesome/css/font-awesome.min.css");
-@import url("../../../web/css/fontello/css/fontello.css");
+@import url("base.css");
+@import url("lists.css");
+@import url("bootstrap.min.css");
+@import url("prettyPhoto.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("fontello/css/fontello.css");
 body {
 	background-color: #f3f3f3;
 	color: #2f3239;
@@ -69,7 +69,7 @@ body {
 	animation: spin 1s linear infinite;
 }
 .boxed_body {
-	background: url(../../../web/images/patterns/bg13.png) repeat;
+	background: url(../images/patterns/bg13.png) repeat;
 }
 .boxed_body_2 {
 	background: url(http://placehold.it/2000x1100/222/FFF) no-repeat center center fixed;
@@ -553,7 +553,7 @@ div[class*="slider_shadow"]:before, div[class^="header_shadow"] {
 	margin-bottom: 30px !important;
 }
 .ask-me .col-md-9 form {
-	background: url("../../../web/images/chrome.png") no-repeat center bottom;
+	background: url("../images/chrome.png") no-repeat center bottom;
 	height: 324px;
 	width: 100%;
 	background-size: 100% 100%;
@@ -3293,7 +3293,7 @@ span.small_arrow_dowm {
 [class^="icons-"],
 [class*=" icons-"] {
 	display: inline-block;
-	background-image: url(../../../web/images/icons.png);
+	background-image: url(../images/icons.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 	line-height: 1;
