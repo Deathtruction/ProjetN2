@@ -9,12 +9,12 @@ url: www.2code.info
 */
 /* Css */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-@import url("css/base.css");
-@import url("css/lists.css");
-@import url("css/bootstrap.min.css");
-@import url("css/prettyPhoto.css");
-@import url("css/font-awesome/css/font-awesome.min.css");
-@import url("css/fontello/css/fontello.css");
+@import url("../../../web/css/base.css");
+@import url("../../../web/css/lists.css");
+@import url("../../../web/css/bootstrap.min.css");
+@import url("../../../web/css/prettyPhoto.css");
+@import url("../../../web/css/font-awesome/css/font-awesome.min.css");
+@import url("../../../web/css/fontello/css/fontello.css");
 body {
 	background-color: #f3f3f3;
 	color: #2f3239;
@@ -69,7 +69,7 @@ body {
 	animation: spin 1s linear infinite;
 }
 .boxed_body {
-	background: url(images/patterns/bg13.png) repeat;
+	background: url(../../../web/images/patterns/bg13.png) repeat;
 }
 .boxed_body_2 {
 	background: url(http://placehold.it/2000x1100/222/FFF) no-repeat center center fixed;
@@ -553,7 +553,7 @@ div[class*="slider_shadow"]:before, div[class^="header_shadow"] {
 	margin-bottom: 30px !important;
 }
 .ask-me .col-md-9 form {
-	background: url("images/chrome.png") no-repeat center bottom;
+	background: url("../../../web/images/chrome.png") no-repeat center bottom;
 	height: 324px;
 	width: 100%;
 	background-size: 100% 100%;
@@ -3293,7 +3293,7 @@ span.small_arrow_dowm {
 [class^="icons-"],
 [class*=" icons-"] {
 	display: inline-block;
-	background-image: url(images/icons.png);
+	background-image: url(../../../web/images/icons.png);
 	background-position: top left;
 	background-repeat: no-repeat;
 	line-height: 1;
@@ -4302,7 +4302,7 @@ h2 [class^="icons-"], h2 [class*=" icons-"] {
 }
 .divider-3:after {
 	height: 7px;
-	background: url(images/shadow_1.png) repeat-x;
+	background: url(../../../web/images/shadow_1.png) repeat-x;
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -4314,7 +4314,7 @@ h2 [class^="icons-"], h2 [class*=" icons-"] {
 }
 .divider-4:after {
 	height: 10px;
-	background: url(images/splitter.png) bottom repeat-x;
+	background: url(../../../web/images/splitter.png) bottom repeat-x;
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -4322,7 +4322,7 @@ h2 [class^="icons-"], h2 [class*=" icons-"] {
 	left: 0;
 }
 .divider-4-dark:after {
-	background: url(images/splitter_dark.png) bottom repeat-x;
+	background: url(../../../web/images/splitter_dark.png) bottom repeat-x;
 }
 /* Quote */
 .quote-left {
