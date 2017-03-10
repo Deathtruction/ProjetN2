@@ -18,3 +18,7 @@ logge:
     defaults:
         _controller: OCUserBundle:Home:index
 
+#inscription:
+#    path: /inscription
+#    defaults:
+#        _controller: OCUserBundle:Auth:index

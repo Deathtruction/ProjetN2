@@ -12,6 +12,6 @@ class AuthController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('::login.html.twig');
+        return $this->render('');
     }
 }
