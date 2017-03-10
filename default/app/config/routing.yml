@@ -1,5 +1,19 @@
-user:
-    resource: "@UserBundle/Controller/"
+app:
+    resource: "@OCUserBundle/Controller/"
     type:     annotation
-    prefix:   /
 
+login:
+    path: /login
+    defaults:
+        _controller: OCUserBundle:Security:login
+
+login_check:
+    path: /login_check
+
+logout:
+    path: /logout
+
+logge:
+    path: /home
+    defaults:
+        _controller: OCUserBundle:Home:index
