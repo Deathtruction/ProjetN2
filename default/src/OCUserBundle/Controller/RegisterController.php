@@ -4,6 +4,7 @@ namespace OCUserBundle\Controller;
 
 use OCUserBundle\Entity\User;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Routing\Annotation\Route;
 
 class RegisterController extends Controller
 {
